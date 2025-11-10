@@ -7,6 +7,11 @@ import UserCard from "@/components/user/UserCard";
 import UserInformation from "@/components/user/UserInformation";
 import UserSheet from "@/components/user/UserSheet";
 import { cn } from "@/lib/utils";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Shadcn Dashboard | User",
+};
 
 function UserPage() {
   const containerClass = "bg-primary-foreground rounded-lg p-4";

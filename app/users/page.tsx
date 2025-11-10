@@ -1,8 +1,13 @@
 import Breadcrumbs from "@/components/global/Breadcrumbs";
 import Title from "@/components/global/Title";
 import { getUserData } from "@/lib/tables-data";
+import { Metadata } from "next";
 import { columns } from "./columns";
 import { DataTable } from "./data-table";
+
+export const metadata: Metadata = {
+  title: "Shadcn Dashboard | Users",
+};
 
 async function UsersPage() {
   const userData = await getUserData();

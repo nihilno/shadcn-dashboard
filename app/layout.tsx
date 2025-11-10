@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shadcn Focused Project",
+  title: "Shadcn Dashboard | Dashboard",
   description: "Project focused on learning Shadcn library",
 };
 
